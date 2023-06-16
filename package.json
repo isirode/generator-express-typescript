@@ -1,0 +1,22 @@
+{
+  "name": "generator-express-typescript",
+  "version": "1.0.0",
+  "description": "Generator for Express + Typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "doInstall": "npm install",
+    "local": "npm link",
+    "test": "jest --config jest.config.js"
+  },
+  "author": "Isirode",
+  "license": "SEE LICENCE IN LICENSE",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "yeoman-generator": "5.8.0"
+  }
+}
